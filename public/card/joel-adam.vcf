@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Adam;Joel;;;
+FN:Joel Adam
+ORG:Collaborative Research
+TITLE:Founder
+EMAIL;TYPE=INTERNET,WORK:joel@collabres.ai
+TEL;TYPE=CELL,VOICE:+64 21 531 256
+URL:https://collabres.ai
+END:VCARD

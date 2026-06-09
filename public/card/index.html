@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joel Adam — Collaborative Research</title>
+  <meta name="description" content="Joel Adam, Founder of Collaborative Research. Save my contact details." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0F0F0F;
+      --surface: #1C1C1E;
+      --text: #F5F5F5;
+      --muted: #9A9A9A;
+      --amber: #C4873A;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100dvh;
+      padding: 32px 24px;
+    }
+    .card {
+      width: 100%;
+      max-width: 380px;
+      text-align: left;
+    }
+    .name {
+      font-size: 30px;
+      font-weight: 700;
+      color: var(--amber);
+      letter-spacing: -0.01em;
+    }
+    .title {
+      font-size: 15px;
+      font-weight: 400;
+      color: var(--text);
+      margin-top: 4px;
+    }
+    .rule {
+      height: 1px;
+      background: #2A2A2C;
+      margin: 28px 0;
+      border: none;
+    }
+    .save {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 15px 20px;
+      border: 1.5px solid var(--amber);
+      border-radius: 10px;
+      color: var(--amber);
+      font-size: 15px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+    .save:active { background: var(--amber); color: var(--bg); }
+    .links { margin-top: 22px; display: flex; flex-direction: column; gap: 2px; }
+    .links a {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 4px;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 15px;
+      border-bottom: 1px solid #1A1A1C;
+    }
+    .links a:last-child { border-bottom: none; }
+    .links .label { color: var(--muted); width: 64px; flex-shrink: 0; font-size: 13px; }
+    .links .value { color: var(--text); }
+    .foot { margin-top: 28px; font-size: 12px; color: var(--muted); letter-spacing: 0.02em; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="name">Joel Adam</div>
+    <div class="title">Founder, Collaborative Research</div>
+
+    <hr class="rule" />
+
+    <a class="save" href="joel-adam.vcf" download>Save to contacts</a>
+
+    <nav class="links">
+      <a href="mailto:joel@collabres.ai"><span class="label">Email</span><span class="value">joel@collabres.ai</span></a>
+      <a href="tel:+6421531256"><span class="label">Phone</span><span class="value">+64 21 531 256</span></a>
+      <a href="https://collabres.ai"><span class="label">Web</span><span class="value">collabres.ai</span></a>
+    </nav>
+
+    <div class="foot">Collaborative Research — AI at the speed of understanding</div>
+  </main>
+</body>
+</html>
