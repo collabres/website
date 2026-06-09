@@ -1,0 +1,14 @@
+copy/
+design/
+website_(compressed).md
+website_(summary).md
+website_(conversation_1).md
+
+# macOS junk + current local-only workshop files (never push these to the public repo)
+.DS_Store
+website_(context).md
+website_(context_archive).md
+website_(foundation).md
+website_(intelligence).md
+discussions/
+Screenshot*.png
