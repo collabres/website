@@ -1,17 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <g stroke="#C4873A" stroke-opacity="0.725" stroke-width="24">
-    <line x1="220" y1="274" x2="96" y2="178"/>
-    <line x1="220" y1="274" x2="82" y2="334"/>
-    <line x1="220" y1="274" x2="252" y2="96"/>
-    <line x1="220" y1="274" x2="418" y2="176"/>
-    <line x1="220" y1="274" x2="398" y2="392"/>
+  <g stroke="#C4873A" stroke-opacity="0.37" stroke-width="13">
+    <line x1="405" y1="217" x2="131" y2="210"/>
+<line x1="256" y1="441" x2="131" y2="210"/>
+<line x1="405" y1="217" x2="256" y2="441"/>
+<line x1="256" y1="71" x2="131" y2="210"/>
+<line x1="405" y1="217" x2="256" y2="71"/>
+<line x1="107" y1="295" x2="131" y2="210"/>
+  </g>
+  <g stroke="#C4873A" stroke-opacity="0.725" stroke-width="19">
+    <line x1="405" y1="217" x2="381" y2="302"/>
+<line x1="107" y1="295" x2="256" y2="441"/>
+<line x1="256" y1="441" x2="381" y2="302"/>
+<line x1="107" y1="295" x2="256" y2="71"/>
+<line x1="256" y1="71" x2="381" y2="302"/>
+<line x1="107" y1="295" x2="381" y2="302"/>
   </g>
   <g fill="#C4873A">
-    <circle cx="96" cy="178" r="31"/>
-    <circle cx="82" cy="334" r="26"/>
-    <circle cx="252" cy="96" r="34"/>
-    <circle cx="418" cy="176" r="36"/>
-    <circle cx="398" cy="392" r="30"/>
-    <circle cx="220" cy="274" r="58"/>
+    <circle cx="131" cy="210" r="18" fill-opacity="0.78"/>
+<circle cx="405" cy="217" r="19" fill-opacity="0.78"/>
+<circle cx="256" cy="441" r="21" fill-opacity="0.78"/>
+<circle cx="256" cy="71" r="26" fill-opacity="1"/>
+<circle cx="107" cy="295" r="28" fill-opacity="1"/>
+<circle cx="381" cy="302" r="29" fill-opacity="1"/>
   </g>
 </svg>
