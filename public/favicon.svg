@@ -1,19 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <g stroke="#C4873A" stroke-opacity="0.725" stroke-width="24">
-    <line x1="198" y1="312" x2="96" y2="178"/>
-    <line x1="198" y1="312" x2="82" y2="334"/>
-    <line x1="198" y1="312" x2="252" y2="96"/>
-    <line x1="198" y1="312" x2="418" y2="176"/>
-    <line x1="198" y1="312" x2="398" y2="392"/>
-    <line x1="198" y1="312" x2="258" y2="436"/>
+    <line x1="235" y1="415" x2="82" y2="334"/>
+    <line x1="235" y1="415" x2="82" y2="154"/>
+    <line x1="235" y1="415" x2="247" y2="185"/>
+    <line x1="235" y1="415" x2="456" y2="126"/>
+    <line x1="235" y1="415" x2="422" y2="389"/>
   </g>
   <g fill="#C4873A">
-    <circle cx="96" cy="178" r="34"/>
-    <circle cx="82" cy="334" r="29"/>
-    <circle cx="252" cy="96" r="37"/>
-    <circle cx="418" cy="176" r="39"/>
-    <circle cx="398" cy="392" r="33"/>
-    <circle cx="258" cy="436" r="29"/>
-    <circle cx="198" cy="312" r="64"/>
+    <circle cx="82" cy="334" r="32"/>
+    <circle cx="82" cy="154" r="37"/>
+    <circle cx="247" cy="185" r="41"/>
+    <circle cx="456" cy="126" r="43"/>
+    <circle cx="422" cy="389" r="36"/>
+    <circle cx="235" cy="415" r="64"/>
   </g>
 </svg>
