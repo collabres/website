@@ -40,6 +40,25 @@
     .steps { margin-top: 14px; padding-left: 20px; color: var(--text); }
     .steps li { margin-top: 10px; font-size: clamp(15px, 2.2vw, 17px); }
     .steps li span { color: var(--muted); }
+    /* secondary "tool" buttons — outlined so they don't compete with the OS download */
+    .tool {
+      flex: 1;
+      min-width: 160px;
+      text-align: center;
+      text-decoration: none;
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--amber);
+      font-weight: 700;
+      font-size: 16px;
+      padding: 13px 16px;
+      border-radius: 10px;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+    .tool:hover { background: var(--amber); color: #0F0F0F; }
+    .tool small { display: block; font-weight: 400; font-size: 12px; opacity: 0.72; margin-top: 3px; }
+    .toolgroup-label { margin-top: 24px; margin-bottom: 0; font-size: 15px; }
+    .toolgroup-label span { font-weight: 400; color: var(--muted); font-size: 13px; }
   </style>
 </head>
 <body>
@@ -70,10 +89,53 @@
       <h2>What to do</h2>
       <ol class="steps">
         <li>Download the version for your computer above.</li>
-        <li>Unzip it, and open <strong>READ ME FIRST</strong>.</li>
+        <li>Unzip it — <span>on Windows, right-click the file and choose <strong>Extract All</strong></span> — then open <strong>READ ME FIRST</strong>.</li>
         <li>Before we meet, do the <strong>"Before we meet"</strong> steps — a few free installs. <span>That way our time together goes to the good stuff, not waiting on downloads.</span></li>
         <li>That's it. <span>We'll set up everything else together and start your first session.</span></li>
       </ol>
+    </section>
+
+    <hr class="rule" />
+
+    <section class="block">
+      <h2>The free installs</h2>
+      <p class="lede" style="font-size: clamp(15px,2.2vw,17px); margin-top: 6px;">
+        Each one is free. Just download and install — you don't need to open them or set anything up. We'll do that part together.
+      </p>
+
+      <!-- DRY-RUN (Joel): this is the full candidate set for the host trial. After the dry-run, keep the two essentials + the ONE chosen workspace and delete the rest of this block. -->
+
+      <p class="toolgroup-label"><strong>1 · The essentials</strong> <span>— everyone installs these</span></p>
+      <div class="downloads">
+        <a class="tool" href="https://www.python.org/downloads/" target="_blank" rel="noopener">
+          Python
+          <small>⚠️ tick "Add python.exe to PATH"</small>
+        </a>
+        <a class="tool" href="https://code.claude.com/docs/en/setup" target="_blank" rel="noopener">
+          Claude Code
+          <small>install instructions</small>
+        </a>
+      </div>
+
+      <p class="toolgroup-label"><strong>2 · Your workspace</strong> <span>— where you'll see it all (dry-run: trialling these)</span></p>
+      <div class="downloads">
+        <a class="tool" href="https://code.visualstudio.com/download" target="_blank" rel="noopener">
+          VS Code
+          <small>recommended</small>
+        </a>
+        <a class="tool" href="https://obsidian.md/download" target="_blank" rel="noopener">
+          Obsidian
+          <small>notebook option</small>
+        </a>
+        <a class="tool" href="https://www.jetbrains.com/pycharm/download/" target="_blank" rel="noopener">
+          PyCharm
+          <small>Community edition</small>
+        </a>
+        <a class="tool" href="https://zed.dev/download" target="_blank" rel="noopener">
+          Zed
+          <small>lightest</small>
+        </a>
+      </div>
     </section>
 
     <p class="foot">
