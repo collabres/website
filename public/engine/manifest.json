@@ -1,0 +1,53 @@
+{
+  "engine_version": "1.0.0",
+  "released": "2026-07-10",
+  "changelog": "https://collabres.ai/engine/CHANGELOG.md",
+  "bundles": {
+    "mac": "cr-engine-1.0.0-mac.zip",
+    "windows": "cr-engine-1.0.0-windows.zip"
+  },
+  "files": [
+    {
+      "path": ".claude/hooks/append_raw.py",
+      "layer": "substrate",
+      "platform": "all",
+      "sha256": "b00630461d3efa873b2bac9cfc8309edc9710b306f42024254e82e1fc631b149"
+    },
+    {
+      "path": ".claude/settings.json",
+      "layer": "substrate",
+      "platform": "mac",
+      "sha256": "187f0ddde600f511830118786f8c3c9e321f2eb618b370cda00cdd88d472df11"
+    },
+    {
+      "path": ".claude/settings.json",
+      "layer": "substrate",
+      "platform": "windows",
+      "sha256": "9c59d6cb3d68ab1dc75e7a5b0d5a417e7e729290363e7d54f9862b525913af03"
+    },
+    {
+      "path": ".claude/engine_config.template.json",
+      "layer": "substrate",
+      "platform": "all",
+      "sha256": "b9bbd6fd1341cfb585c3bc9e7db81600e6525a9fbc8e5ce26c7cdeab933b8e97"
+    },
+    {
+      "path": ".claude/selftest/capture_selftest.py",
+      "layer": "substrate",
+      "platform": "all",
+      "sha256": "ccace47a95033dc54d0ae19d216635bd5834053bb101f9ae40fc897b71ec2657"
+    },
+    {
+      "path": "CLAUDE.md",
+      "layer": "intelligence",
+      "platform": "all",
+      "sha256": "f80068fe2c325fcef4117532724e3588c092872ae81892721d951d34f8943a20"
+    },
+    {
+      "path": ".claude/skills/cr-update/SKILL.md",
+      "layer": "intelligence",
+      "platform": "all",
+      "sha256": "eb44bd321ded329fa80937fc334fda36da2c7b978316f2b4728dd202ef30f9d0"
+    }
+  ]
+}
