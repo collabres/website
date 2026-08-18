@@ -7,6 +7,33 @@ reads this file, verbatim, when `/cr-update` proposes an update.
 
 ---
 
+## 1.0.2 — 2026-08-17 — your words stay yours, and every exchange carries its time
+
+### Substrate
+- **Fixed: running a skill command could overwrite your prompt in the record.**
+  When a session turn started with a skill command (a "/" command), the capture
+  hook could record the command's internal instructions in place of what you
+  actually typed. Your words now always land in the record; the internal
+  machinery never does. (Found and fixed the same day on CR's own record —
+  four historical instances, all repaired by hand.)
+- **Added: every exchange in your record is now stamped with the date and time
+  it happened**, in your own local time — the same as the notes you capture on
+  your phone have always been. Your record becomes searchable by when, not just
+  by what: "what did we decide that Tuesday afternoon" is now a question it can
+  answer. Existing entries are untouched; stamps begin from this update onward.
+
+---
+
+## 1.0.1 — 2026-07-10 — the self-test now shows your whole record
+
+### Substrate
+- **The self-test now enumerates your complete record**, not just the current
+  month: every monthly file, the total number of exchanges, and the total size —
+  so "is it all really being kept?" gets a full inventory as the answer, on your
+  own machine, any time you ask.
+
+---
+
 ## 1.0.0 — 2026-07-10 — first versioned release
 
 The engine now has a version, a manifest, a self-test, and an update path. Installs

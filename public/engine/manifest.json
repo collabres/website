@@ -1,17 +1,17 @@
 {
-  "engine_version": "1.0.0",
-  "released": "2026-07-10",
+  "engine_version": "1.0.2",
+  "released": "2026-08-17",
   "changelog": "https://collabres.ai/engine/CHANGELOG.md",
   "bundles": {
-    "mac": "cr-engine-1.0.0-mac.zip",
-    "windows": "cr-engine-1.0.0-windows.zip"
+    "mac": "cr-engine-1.0.2-mac.zip",
+    "windows": "cr-engine-1.0.2-windows.zip"
   },
   "files": [
     {
       "path": ".claude/hooks/append_raw.py",
       "layer": "substrate",
       "platform": "all",
-      "sha256": "b00630461d3efa873b2bac9cfc8309edc9710b306f42024254e82e1fc631b149"
+      "sha256": "9ae4d65c71473422bbd99fa3e3eca2c1be019a6d5ba45808039766672c7472aa"
     },
     {
       "path": ".claude/settings.json",
@@ -35,7 +35,7 @@
       "path": ".claude/selftest/capture_selftest.py",
       "layer": "substrate",
       "platform": "all",
-      "sha256": "ccace47a95033dc54d0ae19d216635bd5834053bb101f9ae40fc897b71ec2657"
+      "sha256": "b602ef3c58004334eb83732793984613139c1449b05d8034fc197b057069699f"
     },
     {
       "path": "CLAUDE.md",

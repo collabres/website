@@ -119,6 +119,7 @@
   function resize() {
     w = window.innerWidth;
     h = window.innerHeight;
+    if (!w || !h) return; // zero-sized viewport (hidden/embedded): wait for a real resize
     canvas.width = w * dpr;
     canvas.height = h * dpr;
     canvas.style.width = w + "px";
@@ -132,6 +133,7 @@
   // largest pairwise radius, so each point only tests neighbours in its own
   // cell and the eight around it — cost grows linearly, not as O(n²).
   function makeGrid(cellSize) {
+    if (!(cellSize > 0)) cellSize = 1; // guard: never divide by zero/NaN
     var cols = Math.max(1, Math.ceil(w / cellSize));
     var rows = Math.max(1, Math.ceil(h / cellSize));
     var cells = new Array(cols * rows);
